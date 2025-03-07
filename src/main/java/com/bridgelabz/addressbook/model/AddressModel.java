@@ -5,11 +5,6 @@ public class AddressModel {
     private String address;
 
 
-    public AddressModel(long id, String address) {
-        this.id = id;
-        this.address = address;
-    }
-
     public long getId(){
         return id;
     }

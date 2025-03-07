@@ -4,12 +4,6 @@ public class AddressDTO {
     private long id;
     private String address;
 
-
-    public AddressDTO(long id, String address) {
-        this.id = id;
-        this.address = address;
-    }
-
     public long getId(){
         return id;
     }
